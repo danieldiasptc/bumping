@@ -15,8 +15,6 @@ jobs:
       uses: anothrNick/github-tag-action@1.26.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REPO_OWNER: danieldiasptc
         WITH_V: true
         DEFAULT_BUMP: none
-        RELEASE_BRANCHES: main, v1
-        TAG_CONTEXT: repo
+        RELEASE_BRANCHES: main
