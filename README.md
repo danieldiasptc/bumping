@@ -1,4 +1,4 @@
 # bumping
 
 ### alteração 02
-GORM 2
+GORM 1
