@@ -2,7 +2,7 @@ name: Push Tag
 on:
   push:
     branches:
-      - main
+      - main, v1
 
 jobs:
   build:
