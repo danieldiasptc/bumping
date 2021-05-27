@@ -17,5 +17,5 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.TOKEN }}
         WITH_V: true
         DEFAULT_BUMP: none
-        RELEASE_BRANCHES: master, v1
+        RELEASE_BRANCHES: main, v1
         TAG_CONTEXT: branch
